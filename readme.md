@@ -2,6 +2,6 @@
 
 use the full-stack react framework to build a web spider.
 
-## Env chose
+##  Env chose
 
-for easy to unify the env, we chose the dev container to build the project. on the sever side, we use the docker compose to deploy the server env.
+use the docker compose to build the dependency env, e.g. redis, mysql, mongo, rabbitmq, etc.
