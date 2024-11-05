@@ -50,4 +50,5 @@ $RECYCLE.BIN/
 
 # Prisma
 *.db
-prisma/**/*.toml
+*.db-journal
+prisma/migrations
