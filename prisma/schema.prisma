@@ -12,3 +12,18 @@ model User {
   name  String
   email String @unique
 }
+
+
+model SpiderLogic {
+  id              String   @id @default(cuid())
+  username        String   @unique
+  password        String
+  target_username String
+  original_role_id String?
+  token           String?
+  date            String?
+  country_code    String?
+  page_number     Int      @default(1)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
