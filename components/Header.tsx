@@ -6,8 +6,6 @@ const Header: React.FC = () => {
       <nav>
         <ul className="flex list-none p-0">
           <li className="mr-4"><a href="/">Home</a></li>
-          <li className="mr-4"><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
